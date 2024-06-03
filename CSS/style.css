@@ -11,4 +11,15 @@ body {
 }
 .pswd-button{
     font-size: 24px;
+    transform: scale(1.5);
+    animation: small_to_big 2s linear 1;
+}
+
+@keyframes small_to_big {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.5);
+    }
 }
