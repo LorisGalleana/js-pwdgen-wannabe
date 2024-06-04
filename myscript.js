@@ -9,8 +9,10 @@ function myFunction() {
 
     /* unisco i tre prompt e aggiungo il numero 23 */
     let risultato = userName + userLastName + favouriteColor + 23;
+
     /* controllo nella console che il codice funzioni */
     console.log("La tua password è: " + risultato);
+    
     /* inserisco il risultato all'interno dell'HTML */
     document.getElementById("hide").style.display = "none";
     document.getElementById("myCode").innerHTML = risultato;
